@@ -18,7 +18,7 @@ def rsa_encrypt():
     message = data['message']
     key_type = data['key_type']
     private_key, public_key = rsa_cipher.load_keys()
-    if key_type == 'public':
+    if key_type == 'publsic':
         key = public_key
     elif key_type == 'private':
         key = private_key
